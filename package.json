@@ -1,0 +1,26 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "**What is _SOLID_?** SOLID is a software architecure model, it's an acronym for the first five object-oriented design principles intended to make objet-oriented design more understandable, flexible and maintainable. Created by software engineer Robert C. Martin, the SOLID is a subset of many principles promoted by his.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "ts-node-dev": "^2.0.0",
+    "uuidv4": "^6.2.13",
+    "vitest": "^1.4.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "ts-node": "^10.9.2"
+  }
+}
